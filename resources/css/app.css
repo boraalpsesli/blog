@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    height: 70px;              
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;        
+    color: white;              
+    text-align: center;        
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    margin: 0;
+  }
+
+  
+  main {
+    flex: 1;
+  }
+
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
